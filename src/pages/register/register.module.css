@@ -1,0 +1,195 @@
+.Regcontainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1D9BF0;
+    /* background-color: rgb(240, 242, 245); */
+    min-height: 98vh;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+
+.formReg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    gap: 1rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 2rem;
+    width: 90%;
+    max-width: 30rem;
+}
+
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputReg {
+    width: 100%;
+    height: 5vh;
+    border-radius: 7px;
+    padding-left: 1rem;
+}
+
+.headReg {
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    width:100%;
+}
+
+.btnReg {
+    border: none;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 6vh;
+    border-radius: 20px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.errMsg {
+    color: red;
+    font-size: .8rem;
+}
+
+.swapPhone {
+    display: block;
+    /* border:2px solid green; */
+    text-align: end;
+    width:100%;
+    cursor: pointer;
+    color: #1D9BF0;
+}
+
+.swapPhone:hover {
+    text-decoration: underline;
+}
+
+.closeRegisterButton{
+    width:100%;
+    text-align: start;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .Regcontainer {
+        flex-direction: row;
+    }
+
+    .formReg {
+        max-width: none;
+        width: 70%;
+        height: auto;
+        padding: 2rem 4rem;
+    }
+   
+}
+
+@media only screen and (min-width: 992px) {
+    .formReg {
+        width: 80%;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .Regcontainer {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    height: 97vh;
+
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.formReg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    gap: 1rem;
+    background-color: white;
+    padding: 2rem;
+    height: 80vh;
+    width: 30vw;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputReg {
+    width: 20vw;
+    height: 6vh;
+    border-radius: 7px;
+    padding-left: 1rem;
+    
+}
+
+.headReg {
+   
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btnReg {
+    border: none;
+    background-color: black;
+    color: white;
+    width: 18.5rem;
+    height: 6vh;
+    border-radius: 20px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+
+}
+
+.errMsg {
+    color: red;
+    font-size: .8rem;
+} */

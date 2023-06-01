@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainContainer {
+  background-color:white;
+  padding: 20px;
+  color: black;
+  border-radius: 20px;
+  margin: 10px;
+}
+.contentSection {
+  display: flex;
+  /* margin:1rem; */
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.Img img{
+    width: 90px;
+    border-radius: 50%;
+    padding: 1rem;
+}
+.Img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Btn{
+    padding: 8px 15px;
+    background-color: black;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+    color:white
+
+
+}
+.nameSection{
+  /* border: solid white 1px; */
+  padding: 2px;
+}
+.nameSection p{
+    padding: 2px;
+    font-size: 14px;
+}
+.Link{
+    text-decoration: none;
+    padding-left: 1rem;
+}
+.paraContent{
+  color: gray;
+  text-align: center;
+}

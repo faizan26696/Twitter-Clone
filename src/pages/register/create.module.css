@@ -1,0 +1,196 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 97vh;
+
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  gap: 1.5rem;
+  /* width: 25vw; */
+  /* width:90%; */
+  width: 40vw;
+  padding: 2rem;
+}
+
+.btn {
+  width: 20vw;
+  height: 6vh;
+  border: none;
+  color: black;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 20px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnAccount {
+  width: 20vw;
+  height: 6vh;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.createHead {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  width: 20vw;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.termsdiv {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.terms {
+  color: grey;
+  font-size: .7rem;
+}
+
+.conditions {
+  color: rgb(57, 96, 180);
+}
+
+.haveAcc {
+  color: grey;
+  font-size: .8rem;
+  text-align: left;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.haveAccP {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hr {
+  border: 1px solid grey;
+  width: 20vw;
+}
+
+.login {
+  color: rgb(38, 81, 173);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(172, 167, 167);
+  opacity: 1;
+  cursor: pointer;
+}
+
+.closeCreateButton {
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* For screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+  .btnContainer {
+    width: 80vw;
+    padding: 1rem;
+  }
+
+  .btn {
+    width: 60vw;
+  }
+
+  .btnAccount {
+    width: 60vw;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .btnContainer {
+    width: 90vw;
+  }
+
+  .termsdiv {
+    width: 90%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .terms {
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .haveAcc {
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+
+
+
+/* @media only screen and (min-width:768px) and (max-width:1024px) */
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .btnContainer {
+    width: 50vw;
+  }
+
+  .btn {
+    width: 40vw;
+  }
+
+  .btnAccount {
+    width: 40vw;
+  }
+
+  .termsdiv {
+    width: 90%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+
+
+/* For screens between 600px and 1024px */
+
+
+/* For screens larger than 1024px */
+/* @media only screen and (min-width: 1024px) {
+    .btnContainer {
+      width: 25vw;
+    }
+    .btn {
+      width: 20vw;
+    }
+    .btnAccount{
+        width:20vw;
+    }
+   
+
+  
+  } */
